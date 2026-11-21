@@ -1,0 +1,11 @@
+{
+  "_comment": "复制为 research-pipeline.json 并改成你自己的值。也可用环境变量覆盖（ZOTERO_MCP_URL / OBSIDIAN_VAULT / NOTE_OUTPUT_DIR / DEFAULT_COLLECTION）。",
+  "zotero_mcp_url": "http://127.0.0.1:23120/mcp",
+  "obsidian_vault": "<你的 Obsidian 库绝对路径>",
+  "template_path": "<你的 Obsidian 库>/Templates/论文精读模板.md",
+  "note_output_dir": "<你的 Obsidian 库>/精读笔记",
+  "default_collection": "<默认 Zotero 分类名>",
+  "save_attachments": false,
+  "batch_size": 3,
+  "request_timeout": 60
+}

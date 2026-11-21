@@ -1,0 +1,15 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# 本地配置与产物（含个人路径，绝不入库）
+research-pipeline.json
+*.local.json
+*.log
+
+# 虚拟环境
+.venv/
+venv/

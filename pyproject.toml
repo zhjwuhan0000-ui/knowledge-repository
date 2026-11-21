@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "research-pipeline"
+version = "0.1.0"
+description = "Standalone CLI for literature collection, Zotero import and Obsidian note generation"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "research-pipeline contributors" }]
+keywords = ["zotero", "obsidian", "arxiv", "literature", "research", "pipeline"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+research-pipeline = "research_pipeline.cli:main"
+rp = "research_pipeline.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
