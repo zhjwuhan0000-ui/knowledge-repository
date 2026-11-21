@@ -1,4 +1,4 @@
-# research-pipeline（独立 Python 版）
+# research-pipeline
 
 > 一个可以 `pip install`、脱离 WorkBuddy 独立运行的命令行工具：arXiv 检索 → Zotero 去重导入 → 按 11 节模板生成 Obsidian 笔记。
 > **零强制依赖**——全部基于 Python 标准库，任何 Python 3.8+ 环境都能跑。
